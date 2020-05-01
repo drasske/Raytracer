@@ -15,11 +15,13 @@ glm::vec3 Combined::generate()
 {
 	float u = mDistribution(mGenerator);
 	// Choose a random sample to generate from the possible distributions
-	for (int index = 0; index < distributions.size(); ++index)
+	for (unsigned int index = 0; index < distributions.size(); ++index)
 	{
-		if (u < ((index+1.0f) / distributions.size()))
+		if (u < ((index + 1.0f) / distributions.size()))
 		{
 			return distributions[index]->generate();
 		}
 	}
+	// Default return from first distribution
+	return distributions[0]->generate();
 }

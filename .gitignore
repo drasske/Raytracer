@@ -348,3 +348,30 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Raytracer/Raytracer/Resources/Scene Files/ttest5.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ttest4.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ttest2.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ttest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/stest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/stest1-forward_diffuse.bmp
+/Raytracer/Raytracer/Resources/Scene Files/rtest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ptest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ptest1-forward_diffuse.bmp
+/Raytracer/Raytracer/Resources/Scene Files/pathtest2.uniform.100.bmp
+/Raytracer/Raytracer/Resources/Scene Files/pathtest2.phong.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ftest3.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ftest2.bmp
+/Raytracer/Raytracer/Resources/Scene Files/etest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/etest1-forward_diffuse.bmp
+/Raytracer/Raytracer/Resources/Scene Files/dptest2.bmp
+/Raytracer/Raytracer/Resources/Scene Files/dptest1-forward_diffuse.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ctest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ctest1-refl.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ctest1-forward_diffuse.bmp
+/Raytracer/Raytracer/Resources/Scene Files/cs500scenefileformat.pdf
+/Raytracer/Raytracer/Resources/Scene Files/btest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/btest1-forward_diffuse.bmp
+/Raytracer/Raytracer/Resources/Scene Files/atest3.bmp
+/Raytracer/Raytracer/Resources/Scene Files/atest2.bmp
+/Raytracer/Raytracer/Resources/Scene Files/atest1.bmp
+/Raytracer/Raytracer/Resources/Scene Files/ambtest2.bmp

@@ -38,8 +38,9 @@ private:
 	glm::vec3 PathTrace(const IntersectionData& d, const Ray& r, unsigned int depth);
 	float CalculateReflectionCoefficient(const glm::vec3& i, const glm::vec3& N, float ni, float nt, float ui, float ut);
 	glm::vec3 LocalLighting(const IntersectionData& d, float R, const glm::vec3& N);
-	glm::vec3 GenerateRandomSample(const glm::vec3& N, const glm::vec3& point, float& probability);
+	glm::vec3 GenerateRandomSample(const glm::vec3& N);
 	glm::vec3 UniformHemisphereDistribution(float u, float v, const glm::vec3& N);
+	void SetupDistributions(const glm::vec3& N, const glm::vec3& p);
 
 private:
 	SDL_Window* mpWindow;
@@ -49,4 +50,10 @@ private:
 	bool mKillFlag;
 	const float PI = 4.0f * atan(1.0f);
 	Combined mCombinedDistribution;
+	bool mAntialias;
+
+	// Path tracing variables
+	bool mPathTrace;
+	bool mUseImportanceSampling;
+	unsigned int mSamplesPerPixel;
 };

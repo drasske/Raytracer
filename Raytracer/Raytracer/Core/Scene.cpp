@@ -13,7 +13,10 @@ void Scene::Clear()
 {
 	for (Object* pObject : mObjects)
 	{
-		delete pObject;
+		if (!pObject->mIsLight)
+		{
+			delete pObject;
+		}
 	}
 	mObjects.clear();
 	for (Light* pLight : mLights)
@@ -281,6 +284,6 @@ void Scene::ParseAir(std::istream& in)
 		throw std::runtime_error("Failed to parse Air");
 	}
 #ifdef VERBOSE
-	std::cout << "Air parsed" << std::endl
+	std::cout << "Air parsed" << std::endl;
 #endif
 }
